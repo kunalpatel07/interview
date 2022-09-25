@@ -26,6 +26,6 @@ def csv(path,delimiter):
             age = ((int(d.year) - int(i[1][0:4])))
             print(delimiter,temp,"  ",delimiter,i[1],"       ",delimiter,i[2],"         ",delimiter,age,"    ",delimiter)  
             temp="" 
-p = input("enter val first perameter path of file :")
-d = input("enter second perameter delimiter :")
+p = input("enter path of file :")
+d = input("enter delimiter :")
 csv(p,d)
